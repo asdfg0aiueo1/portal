@@ -1,0 +1,483 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin: 0 0 0 auto;
+    display: flex;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 3;
+    
+}
+aside{
+    flex: 3;
+    background-color: orange;
+    width: 340px;
+}
+.group-13 {
+    width: 960px;
+    height: 200px;
+    background: green;
+}
+.frame {
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.frame-1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+.frame-1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.frame-1 li {
+    text-decoration: none;
+}
+
+.group-19 {
+    background: yellow;
+}
+
+.group-22 {
+    background: red;
+    border-radius: 16px;
+}
+
+.group-27 {
+    background: blue;
+}
+.frame-7 {
+    /* Frame 124 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 24px 40px;
+gap: 10px;
+background: #F86666;
+/* ドロップ */
+
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.text-19 {
+    /* 行事予定を作成する */
+
+
+width: 216px;
+height: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame-8 {
+    /* Frame 37 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 24px;
+gap: 10px;
+background: #F86666;
+border-radius: 32px;
+}
+
+.text-20 {
+    /* 参加依頼１件 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.frame-11 {
+    /* Frame 22 */
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 16px 16px 0px 0px;
+}
+
+.text-22 {
+    /* アカウント情報 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.group-24 {
+    /* Frame 58 */
+box-sizing: border-box;
+background: #E9E9E9;
+border: 1px solid #999999;
+border-radius: 32px;
+}
+
+.text-22 {
+    /* アカウントの編集 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-13 {
+    /* Frame 24 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+background: #FAB633;
+border-radius: 8px;
+}
+
+.text-26 {
+    /* 懇親会・その他 */
+
+
+width: 98px;
+height: 20px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame-14 {
+    /* Frame 25 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+background: #CB6DE6;
+border-radius: 8px;
+}
+
+.text-27 {
+    /* 研修会 */
+
+
+width: 42px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame-16 {
+    /* Frame 28 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 73px;
+gap: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.image-12 {
+    /* image 12 */
+
+
+width: 222px;
+height: 38px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame-17 {
+    /* Frame 29 */
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.text-35 {
+    /* MedPostを入れる */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-18 {
+    /* Frame 30 */
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.text-36 {
+    /* 関連事業バナーなど */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-19 {
+    /* Frame 31 */
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.text-37 {
+    /* 関連事業バナーなど */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-21 {
+    /* Frame 33 */
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 80px;
+}
+
+.text-39 {
+    /* ↑ */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 140%;
+/* identical to box height, or 56px */
+
+display: flex;
+align-items: center;
+}
+
+.frame-22 {
+    /* Frame 32 */
+background: #FFFFFF;
+}
+
+.text-40 {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #9A9A9A;
+}
+
+.line-4 {
+    /* Line 2 */
+border: 1px solid #E9E9E9;
+}
+
+.group-21 {
+    /* Group 86 */
+/* ドロップ */
+
+filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.1));
+}
+
+.frame-9 {
+    /* Frame 36 */
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.rectangle-1 {
+    /* Rectangle 3 */
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 4px;
+}
+
+.text-9 {
+    /* 予定表 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.rectangle-2 {
+    /* Rectangle 3 */
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 4px;
+}
+
+.text-10 {
+    /* 文章 新着情報 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
